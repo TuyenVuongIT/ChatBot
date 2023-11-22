@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - affirm_sl
+  - deny
+  - name
+  - level
+  - oder
+  - oder_detail
+  - thanks
+  - contact
+  - bot
+
+responses:
+  utter_greet:
+  - text: "Xin chào bạn, tôi có thể giúp gì cho bạn"
+  utter_goodbye:
+  - text: "Tạm biệt, chúc bạn có một ngày tốt lành"
+  utter_affirm:
+  - text: "Số lượng vé bạn muốn đặt là bao nhiêu"
+  utter_bot:
+  - text: "Tôi là chatbot của hệ thống bán vé máy bay này"
+  utter_name:
+  - text: "Họ tên đầy đủ của bạn là gì?"
+  utter_level:
+  - text: "Bạn muốn ngồi hạng ghế nào?"
+  utter_thanks:
+  - text: "Cảm ơn bạn đã liên hệ với hệ thống"
+  utter_thank_acp:
+  - text: "Cảm ơn bạn đã xác nhận"
+  utter_oder:
+  - text: "Vâng tôi cần bạn cung cấp thông tin, được chứ?"
+  utter_oder_detail:
+  - text: "Bạn muốn đi từ đâu đến đâu?"
+  utter_contact:
+  - text: "Thông tin liên lạc của bạn là gì?"
+  utter_done:
+  - text: "Thông tin của bạn đã được ghi nhận, hệ thống sẽ phản hồi trong vòng 24h!"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

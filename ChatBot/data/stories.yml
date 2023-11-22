@@ -1,0 +1,25 @@
+version: "3.1"
+
+stories:
+
+- story: bookflight_1
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: oder
+    - action: utter_oder
+    - intent: affirm
+    - action: utter_name
+    - intent: name
+    - action: utter_level
+    - intent: level
+    - action: utter_affirm
+    - intent: affirm_sl
+    - action: utter_oder_detail
+    - intent: oder_detail
+    - action: utter_contact
+    - intent: contact
+    - action: utter_done
+    - intent: thanks
+    - action: utter_thanks
+

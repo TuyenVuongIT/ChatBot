@@ -1,0 +1,79 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - xin chào
+    - hello
+    - hú
+    - Chào 
+    - Chào bạn nha
+    - chào bạn
+
+- intent: goodbye
+  examples: |
+    - Tạm biệt
+    - Tôi sẽ quay lại
+    - bye
+    - goodbye
+    - bai
+    - bái bai
+    - chúc bạn một ngày tốt lành
+    - hẹn gặp lại bạn sau
+
+- intent: affirm_sl
+  examples: |
+    - vâng số vé tôi đặt là 1
+    - số lượng 2
+
+- intent: deny
+  examples: |
+    - không đồng ý
+    - để tôi suy nghĩ lại
+    - không
+
+- intent: affirm
+  examples: |
+    - vâng
+    - đúng vậy
+    - đúng rồi
+    - đúng
+    - được chứ
+    - được
+- intent: oder
+  examples: |
+    - Tôi muốn đặt vé 
+    - Tôi cần đặt vé
+    - Đặt vé máy bay
+    - cần đặt vé máy bay
+    - muốn đặt vé máy bay
+- intent: thanks
+  examples: |
+    - cảm ơn bạn
+    - cảm ơn
+    - thank you
+- intent: name
+  examples: |
+    - Lê Tuyên Vương
+    - Nguyễn Văn A
+    - Nguyễn Văn B
+- intent: level
+  examples: |
+    - Phổ thông
+    - Thương gia
+    - Hạng nhất
+- intent: contact
+  examples: |
+    - Địa chỉ mail liên hệ của tôi là letuyenvuong12@gmail.com
+    - letuyenvuong12@gmail.com
+- intent: oder_detail
+  examples: |
+    - từ quy nhơn đi đà nẵng
+    - từ sài gòn đi hà nội
+- intent: bot
+  examples: |
+    - Bạn bao nhiêu tuổi rồi
+    - Bạn có người yêu chưa
+    - Bạn là ai
+    - Bạn ở đâu
